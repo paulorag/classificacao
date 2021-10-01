@@ -1,0 +1,132 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.opcoes {
+  position: relative;
+}
+
+.adicionarJogador {
+  position: absolute;
+  top: 10px;
+}
+
+.resetarPontos {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  text-align: right;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+
+table {
+  border: 2px solid white;
+  border-radius: 5px;
+  /*   border-collapse: collapse; */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px 0 3px #000, 0 1px 3px #000, 1px 0 3px #000, 0 -1px 3px #000;
+}
+
+th,
+tr,
+td {
+  color: white;
+}
+
+th {
+  border-bottom: 2px solid white;
+}
+
+#nomeJogador {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: white;
+}
+
+#botaoAdicionar {
+  background-color: rgba(255, 0, 0, 1);
+  border: 2px solid red;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: white;
+}
+
+#botaoAdicionar {
+  background-color: rgba(255, 0, 0, 1);
+  border: 2px solid red;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: white;
+}
+
+#botaoAdicionar:hover {
+  background-color: rgba(255, 100, 100, 1);
+  border: 2px solid rgba(255, 100, 100, 1);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: white;
+}
+
+#botaoAdicionar:active {
+  background-color: rgba(255, 0, 0, 1);
+  border: 2px solid red;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: white;
+}
+
+#botaoResetar {
+  background-color: rgba(247, 202, 24, 1);
+  border: 2px solid rgba(247, 202, 24, 1);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: black;
+}
+
+#botaoResetar:hover {
+  background-color: rgba(240, 255, 100, 1);
+  border: 2px solid rgba(240, 255, 100, 1);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: black;
+}
+
+#botaoResetar:active {
+  background-color: rgba(247, 202, 24, 1);
+  border: 2px solid rgba(247, 202, 24, 1);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  color: black;
+}
